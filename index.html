@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shivam Sinha | Portfolio</title>
+    <link rel="icon" href="logo.jpeg" type="image/icon type" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#welcome-section" class="logo">Shivam Sinha</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#welcome-section" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact-section" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <section class="flex welcome-section" id="welcome-section">
+      <h1 class="welcome-section__title">
+        Hello!<span>My name is Shivam Sinha</span
+        ><span>and I am a Full-Stack Web Developer</span>
+      </h1>
+      <div class="resume">
+        <button class="btn">Click for CV</button>
+      </div>
+    </section>
+    <section id="about">
+      <h1>About Me</h1>
+      <span class="container">
+        <img title="That's my face." id="main-photo" src="profile.jpeg" />
+        <span class="text-container">
+          <p>
+            Hello, I am Shivam Sinha pursuing my Btech from National Institute
+            of Technology, Triuchirappalli. I have a keen intreset in developing
+            stunning and effective websites.
+          </p>
+          <p>
+            I work as a web-developer in Spider- R&D Club, NITT, one of the
+            prominent coding clubs of NITT. I would love to explore any new
+            field and I constantly keep myself engaged in exploring new
+            Technologies!
+          </p>
+          <p>
+            My passion and dream is to use technology in a way that benefits
+            everyone. I love designing web pages and making them responsive for
+            any screen size. I love solving programming challenges; there's
+            always a way!
+          </p>
+          <div class="highlight-div" style="border-bottom: 2px solid red">
+            <p class="highlight" style="color: black">Skills:</p>
+            <p>Python, MySQL, React JS, Node JS, HTML, CSS, JS and SEO.</p>
+          </div>
+        </span>
+      </span>
+    </section>
+    <!-- <section id="about">
+      <h1>About</h1>
+      <div>
+        <p>
+          Hello, I am Shivam Sinha pursuing my Btech from National Institute of
+          Technology, Triuchirappalli. I have akeen intreset in developing
+          stunning and effective websites. I have proficiency in Python, React
+          JS, HTML, CSS, JS and SEO.
+          <br />
+          I work as a web-developer in Spider- R&D Club, NITT, one of the
+          prominent coding clubs of NITT. I would love to explore any new field
+          and I constantly keep myself engaged in exploring new Technologies!
+        </p>
+      </div>
+    </section> -->
+    <section class="projects" id="projects">
+      <h2 class="projects__title">Projects</h2>
+      <div class="projects__container">
+        <a
+          class="project__link"
+          href="https://react-projects-10-grocery-bud.netlify.app/"
+          target="blank"
+        >
+          <figure class="project__card">
+            <img
+              loading="lazy"
+              src="https://react-projects.netlify.app/static/876deb5c09e8616fca227268c36c4b86/84322/ScreenShot2020-10-03at2.30.24PM.webp"
+              class="card__img"
+              alt="project"
+            />
+            <figcaption class="card__title">
+              <span class="utilities">&lt; </span>Grocery Bud<span
+                class="utilities"
+              >
+                &sol; &gt;</span
+              >
+            </figcaption>
+          </figure>
+        </a>
+
+        <a
+          class="project__link"
+          href="https://steven4869.github.io/Space-Wars/"
+          target="blank"
+        >
+          <figure class="project__card">
+            <img
+              loading="lazy"
+              src="project1.png"
+              class="card__img"
+              alt="project"
+            />
+            <figcaption class="card__title">
+              <span class="utilities">&lt; </span>Space Shooter Game<span
+                class="utilities"
+              >
+                &sol; &gt;</span
+              >
+            </figcaption>
+          </figure>
+        </a>
+
+        <a
+          class="project__link"
+          href="https://amazing-beaver-96818c.netlify.app/"
+          target="blank"
+        >
+          <figure class="project__card">
+            <img
+              loading="lazy"
+              src="project2.png"
+              class="card__img"
+              alt="project"
+            />
+            <figcaption class="card__title">
+              <span class="utilities">&lt; </span>Movie API app<span
+                class="utilities"
+              >
+                &sol; &gt;</span
+              >
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+    </section>
+    <section class="contact-section" id="contact-section">
+      <div>
+        <h2 class="contact__title">Contact</h2>
+      </div>
+      <div class="contact__links">
+        <a href="#" target="_blank" class="contact-details"
+          ><i class="fab fa-linkedin-square"></i> Linkedin</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/Steven4869"
+          target="_blank"
+          class="contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a href="sinhashivam.10@gmail.com" class="contact-details"
+          ><i class="fas fa-at"></i>Gmail</a
+        >
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
